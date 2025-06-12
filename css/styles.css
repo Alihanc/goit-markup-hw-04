@@ -48,8 +48,16 @@ body {
   line-height: 16px;
   text-decoration: none;
   color: #434455;
+  width: 48px;
+  height: 48px;
 }
-.header .studio-underline:hover::after {
+.header .studio-underline:hover,
+.header .studio-underline:focus {
+  color: #4d5ae5;
+  text-decoration: underline;
+
+}
+.header .studio-underline::after {
   display: flex;
   content: "";
   width: 48px;
@@ -57,7 +65,7 @@ body {
   text-decoration: none;
   background-color: #404bbf;
   border-radius: 2px;
-  margin-bottom: 20px;
+
 }
 
 .header .main-list {
