@@ -372,12 +372,8 @@ img {
   z-index: 999;
   width: 100%;
   height: 100%;
-background-color: #e7e9fc;
-  background: linear-gradient(
-      rgba(46, 47, 66, 0.08),
-      rgba(46, 47, 66, 016),
-      rgba(46, 47, 66, 0.08),
-    );
+background-color: #fff;
+
 
 
   /*border: #31d0aa 3px solid;*/
